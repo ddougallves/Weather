@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Douglas Alves">
+    <meta name="description" content="A simple project wicth you have access to current weather data using a free weather API from OpenWeatherMap">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Weather</h1>
+
+    <form class="search">
+        <input type="text">
+        <button>Search</button>
+    </form>
+
+    <div class="resultArea">
+        <div class="titleArea">--</div>
+
+        <div class="info">
+            <div class="top">
+                <div class="temp">
+                    <div class="title">Temperature</div>
+                    <div class="info">--</div>
+                    <div class="icon">
+                        <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+                    </div>
+                </div>
+                <div class="wind">
+                    <div class="title">Wind</div>
+                    <div class="info">--</div>
+                    <div class="icon">
+                        <div class="windArea">
+                            <div class="windVane" style="transform: rotate(0deg)"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="FeelsLike">
+                    <div class="title">Feeels Like</div>
+                    <div class="info">--</div>
+                </div>
+                <div class="Humidity">
+                    <div class="title">Humidity</div>
+                    <div class="info">--</div>
+                </div>
+                <div class="Min">
+                    <div class="title">Min</div>
+                    <div class="info">--</div>
+                </div>
+                <div class="Max">
+                    <div class="title">Max</div>
+                    <div class="info">--</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="warningArea"></div>
+
+    <footer>Made by - Douglas Alves ©</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
